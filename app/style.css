@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+
+
+
+
+
+
+
+.oculto{
+    display: none;
+}
+.parcelas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 200px;
+    background-color: rgb(243, 243, 243);
+    width: 180vh;
+    height: 30px;
+    font-size: 15px;
+}
+.quant {
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+}
+.infos {
+    display: flex;
+    gap: 40px;
+    margin-right: 60px;
+    
+   
+}
+.caixa {
+    display: flex;
+    width: 150px;
+    height: 20px;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.caixa1 {
+    display: flex;
+    width: 220px;
+    height: 20px;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+.caixa1:hover {
+    background-color:rgb(238, 172, 5);
+    color: white;
+}
+.caixa:hover {
+    background-color: red;
+    color: white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    margin-inline: 200px;
+    margin-block: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img {
+    width: 400px;
+    height: 70px;
+}
+.busca input {
+    display: flex;
+    justify-content: center;
+    width: 28vw;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid red;
+    margin-inline: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+}
+
+.cadastro {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.cadastro input {
+    width: 155px;
+    height: 70px;
+    border: 2px solid black;
+    background-color: black !important;
+    
+    
+
+    
+}
+.cadastro button {
+    overflow: hidden;
+}
+.cadastro img {
+    width: 40px;
+    height: 40px;
+}
+.regiao {
+    display: flex;
+    justify-content: center ;
+    width: 200px;
+    height: 60px;
+    gap: 10px;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+
+.regiao:hover {
+    background-color:rgb(238, 172, 5);
+}
+.carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 70px;
+    border-radius: 15px;
+}
+.carrinho img{
+  
+    align-items: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.favoritos {
+    display: flex;
+    width: 120px;
+    height: 70px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.favoritos:hover {
+    background-color:rgb(238, 172, 5);
+}
+
+.carrinho:hover {
+    background-color: rgb(96, 125, 255);
+}
+
+
